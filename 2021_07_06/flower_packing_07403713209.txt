@@ -1,0 +1,15 @@
+FLOWER_PACKING_07403713209
+------------------
+
+accent = ["ffe045","dd2a3b","7621d9","2D27E3","0de0a8"]
+colors = [accent[int(random(len(accent)))]] + ["ffffff","222222","AAAAAA"]
+w = 1080
+h = 1080
+num_elem = 2000
+min_radius = 5
+max_radius = 50
+margin = 100
+precision = 10 # the smaller the more time and precision
+# outer frame
+framing = True
+frame_size = margin//3
